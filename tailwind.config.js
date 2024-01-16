@@ -24,6 +24,10 @@ module.exports = withMT({
 
   ],
   theme: {
+    screens: {
+      "mb": { 'max': '820px' },
+      "tb": { 'max': '1024px' },
+    },
     extend: {},
   },
   plugins: [],

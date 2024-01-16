@@ -2,10 +2,10 @@ import React from "react";
 import logo from "../assets/hyg-logo.png";
 export default function Header() {
   return (
-    <header className="text-center py-[27px]">
+    <header className="text-center py-[27px] mb:sticky mb:top-0 w-full z-40 bg-white">
       <div className=" mx-auto max-w-[1040px] w-full flex items-center justify-between tb:px-[5%]">
         <img src={logo} alt="" />
-        <ul className=" list-none flex mb:flex-col items-center justify-center gap-[40px] mb:gap-[0] mb:justify-start mb:fixed mb:left-0 mb:w-full mb:h-full mb:bg-[#edebeb] mb:top-[90px]">
+        <ul className=" list-none flex mb:flex-col items-center justify-center gap-[40px] mb:gap-[0] mb:justify-start mb:fixed mb:left-0 mb:w-full mb:h-full mb:bg-[#edebeb] z-30 mb:top-[90px]">
           <li className="text-[18px] mb:w-full mb:hover:bg-[#dddcdc] cursor-pointer mb:py-[18px] text-[#3A3740] font-normal font-[inter]">
             Home
           </li>
